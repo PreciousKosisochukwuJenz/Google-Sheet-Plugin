@@ -1,0 +1,11 @@
+{
+  "web": {
+    "client_id": "562153214158-mmeb95269k7ulc8bdur67538u81pbgn5.apps.googleusercontent.com",
+    "project_id": "studious-spot-351801",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": ["http://localhost:3000/oauth2callback"]
+  }
+}

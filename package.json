@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "googleapis": "^100.0.0"
+    "googleapis": "^100.0.0",
+    "open": "^8.4.0",
+    "server-destroy": "^1.0.1"
   },
   "devDependencies": {
     "jest": "^28.1.0"
