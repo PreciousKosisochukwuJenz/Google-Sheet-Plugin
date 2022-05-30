@@ -11,11 +11,12 @@ class Core {
     const auth = await this.googelSheetPlugin.auth.authorize()
     const request = {
       resource: {
-        title,
+        properties: {
+          title,
+        },
       },
       auth,
     }
-
     try {
       const response = (await sheets.spreadsheets.create(request)).data
       return JSON.stringify(response, null, 2)

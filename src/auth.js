@@ -11,12 +11,16 @@ class Auth {
     const scopes = ['https://www.googleapis.com/auth/spreadsheets']
 
     const auth = new google.auth.JWT(client_email, null, private_key, scopes)
-    return auth.authorize((err, tokens) => {
+    auth.authorize((err, tokens) => {
       if (err) {
         console.error('<::: ERR: Authorization failed')
         return
+      } else {
+        console.log(':::> Connected')
       }
     })
+
+    return auth
   }
 }
 
